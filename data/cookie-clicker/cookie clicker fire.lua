@@ -48,7 +48,7 @@ local appData = {
 
 -- Game Data (no save)
 local cps = 0
-local cookieVer = "0.3.0"
+local cookieVer = "QuackEdition 0.3.0"
 
 -- non list
 local clickCount = 0
@@ -62,11 +62,12 @@ local extrasState = "menu"
 
 -- list
 local productList = {
-    --  Name             Description                                      CPS   St. Val     Multi
+    --  Name             Description                          CPS  St. Val Multi
     {"Cursor",  "Autoclicks once every 10 seconds.",          0.1,    15,  1.15},
     {"Grandma", "A nice grandma to bake more cookies",          1,   100,  1.25},
     {"Farm",    "Grows cookie plants from cookie seeds.",       8,  1100,  1.05},
-    {"Mine",    "Mines out cookie dough and chocolate chips.", 47, 12000,  1.01}
+    {"Mine",    "Mines out cookie dough and chocolate chips.", 47, 12000,  1.01},
+	{"Skibidi", "brrr skibidi dopdopdop yesyesyes.",          100, 24000,  1.50}
 }
 local upgradesList = {
     --     Name               Description                                         ID     Req to Unlock  Starting VAL
